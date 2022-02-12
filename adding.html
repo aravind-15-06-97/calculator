@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head> 
+<title>CALCULATOR</title>
+</head>
+<body>
+<H1 style="text-align:center;">CALCULATOR FOR ADDING<H1/>
+<script>
+function add(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a + b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
+<body>
+<p style="color:green;text-align:center;">First number  <input id="first";p style="color:orange";><br>
+<br>
+Second number <input id="second";p style="color:blue";><br><br>
+<button onclick="add()">Add</button>
+<input id="answer";p style="color:red";>
+</body>
+</html>
